@@ -40,3 +40,5 @@ Run the python code in `Nomic-Embed` for Quality and muld-movie to evaluate the 
 
 ### Traditional Machine-Learning
 The machine learning & a deep learning pipeline designed for text classification on the MULD/Quality dataset. The pipeline utilizes various preprocessing techniques, feature extraction using Word2Vec embeddings, and an ensemble of classifiers/ neural networks for classification tasks.
+
+Run the python code in '' for Quality and muld-movie to evaluate the accuracy of the models.
