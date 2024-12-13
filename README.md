@@ -17,6 +17,20 @@ This project aims to thoroughly explore and evaluate methods for handling long d
 
 
 ### LLM
+To run on Windows you might need to use Windows Subsystem for Linux as VLLM is not (as of writing) available for windows. Otherwise, you need to do the following:
+    1. Request an access token to your Huggingface account (you need one for access to Llama) 
+        (https://huggingface.co/docs/transformers/main/en/model_doc/llama) You need one for 3.1 and 3.2
+    2. Save it in token.txt in the same folder as the code
+    3. Need to be running python 3.10 to run vllm, need CUDA 12.4 (other versions might also work but not sure)
+    4. run the following:
+        pip install vllm
+        pip install datasets
+        pip install huggingface_hub
+        pip install nltk
+    5. You should be good to go (as long as you have a large enough GPU (we ran this on Nvidia A5000))
+
+Hope it works! If not let us know we'll provide guidance.
+
 
 ### Nomic-Embed Classification
 
